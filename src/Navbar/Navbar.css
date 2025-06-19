@@ -1,0 +1,31 @@
+.Navber {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.left-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.center-nav ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.right-nav {
+  justify-content: space-between;
+}
+.right-nav button {
+  padding: 6px 15px;
+  border-radius: 4px;
+  outline: none;
+  background-color: tomato;
+  border: none;
+}
+.center-nav .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}

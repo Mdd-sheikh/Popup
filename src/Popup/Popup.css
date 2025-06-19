@@ -1,0 +1,56 @@
+.popup{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    z-index: 1;
+    display: grid;
+    background-color:transparent
+
+}
+.popup-input{
+    place-self: center;
+    width: max(23vw,330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+
+    .popup-title button ,h2{
+        color: tomato;
+        outline: none;
+        border: none;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .input input{
+        padding: 10px ;
+        width: 280px;
+        outline: none;
+        display: grid;
+    }
+    .input{
+        padding: 5px;
+        
+    }
+}
+.popup-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.submit_btn{
+   height: 30px;
+   background-color: tomato;
+   outline: none;
+   border: transparent;
+}
+.section span{
+    color: tomato;
+    cursor: pointer;
+}
